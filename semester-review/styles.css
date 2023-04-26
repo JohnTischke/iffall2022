@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+    background-color: whitesmoke;
+    color: slategray;
+    margin: 0;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 2.4rem;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+h2 {
+    margin-top: .5rem;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 300;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 90%;
+    margin: 4rem auto;
+    padding: 0;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    width: 30%;
+    max-width: 400px;
+    min-width: 300px;
+    padding: .5rem;
+}
+
+img {
+    position: relative;
+    top: 0;
+    width: 96%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    object-position: top center;
+    box-shadow: 0 0 .2rem slategray;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 1.3rem;
+    transition: 0.2s;
+}
+
+a h3 {
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+a h4 {
+    font-weight: 300;
+    margin: 0 0 3rem 0;
+    line-height: 0em;
+}
+
+li:hover a img {
+    top: -6px;
+    box-shadow: 0 6px 10px rgba(112, 128, 144, 0.316);
+}
+
+li:hover a {
+    color: rgb(46, 53, 60);
+}
